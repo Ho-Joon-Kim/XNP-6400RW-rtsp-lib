@@ -9,7 +9,7 @@ class xnp_rtsp:
             cls.instance = super(xnp_rtsp, cls).__new__(cls)
         return cls.instance
     
-    def __init__(self, RTSP_URL, fileLocation = ""):
+    def init(self, RTSP_URL, fileLocation = ""):
         self.RTSP_URL = RTSP_URL
         self.fileLocation = fileLocation
 

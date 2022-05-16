@@ -2,6 +2,9 @@
 
 rtsp://id:pw@ip:554/profile2/media.smp
 
+```shell
+pip install ffmpeg-python
+```
 
 ``` python
 from src/index import xnp_rtsp
